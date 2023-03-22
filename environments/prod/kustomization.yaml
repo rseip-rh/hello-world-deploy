@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - ../../base/
 images:
-- name: quay.io/cmays20/hello-world
-  newTag: 9bf302dd279af30fb9e8196ef200c988d03e9dcb
+- name: quay.io/rseip/hello-world
+  newTag: ad6ff540391adcbb1d4dedad3bbdba82bf4e72bd
