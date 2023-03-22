@@ -3,8 +3,8 @@ kind: Kustomization
 resources:
 - ../../base/
 images:
-- name: quay.io/cmays20/hello-world
-  newTag: a3e173dbeee278957088be107b70c4416ac64011
+- name: quay.io/rseip/hello-world
+  newTag: ad6ff540391adcbb1d4dedad3bbdba82bf4e72bd
 configMapGenerator:
 - name: environment-variables
   literals:
